@@ -38,4 +38,6 @@ function addThreeGuest() {
 function restartGame() {
     guestScoreEl.textContent = 0
     homeScoreEl.textContent = 0
+    homeScore = 0
+    guestScore = 0
 }
